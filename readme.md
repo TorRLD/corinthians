@@ -11,18 +11,18 @@ Este projeto em C/C++ para Raspberry Pi Pico (RP2040) demonstra:
 
 ## Sumário
 
-* [Componentes e Requisitos](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#componentes-e-requisitos)
-* [Visão Geral do Projeto](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#vis%C3%A3o-geral-do-projeto)
-* [Como Compilar e Carregar](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#como-compilar-e-carregar)
-* [Arquitetura do Código](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#arquitetura-do-c%C3%B3digo)
-  * [Estrutura de Pastas (Sugestão)](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#estrutura-de-pastas-sugest%C3%A3o)
-  * [Descrição dos Principais Arquivos](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#descri%C3%A7%C3%A3o-dos-principais-arquivos)
-* [Funcionamento em Detalhes](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#funcionamento-em-detalhes)
-  * [Melodia com Notas sem Números](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#melodia-com-notas-sem-n%C3%BAmeros)
-  * [Exibição das Imagens (WS2812)](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#exibi%C3%A7%C3%A3o-das-imagens-ws2812)
-  * [Uso do Multicore (RP2040)](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#uso-do-multicore-rp2040)
-* [Ajustes e Personalizações](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#ajustes-e-personaliza%C3%A7%C3%B5es)
-* [Licença](https://chatgpt.com/c/67a14930-b688-800b-8062-fe8ddc2a6c53#licen%C3%A7a)
+* [Componentes e Requisitos]()
+* [Visão Geral do Projeto]()
+* [Como Compilar e Carregar]()
+* [Arquitetura do Código]()
+  * [Estrutura de Pastas (Sugestão)]()
+  * [Descrição dos Principais Arquivos]()
+* [Funcionamento em Detalhes]()
+  * [Melodia com Notas sem Números]()
+  * [Exibição das Imagens (WS2812)]()
+  * [Uso do Multicore (RP2040)]()
+* [Ajustes e Personalizações]()
+* [Licença]()
 
 ---
 
