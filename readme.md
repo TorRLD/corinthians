@@ -1,4 +1,4 @@
-Animação Corinthians com Hino 
+## Animação Corinthians com Hino 
 
 Este projeto em C/C++ para Raspberry Pi Pico (RP2040) demonstra:
 
