@@ -66,33 +66,6 @@ Este projeto em C/C++ para Raspberry Pi Pico (RP2040) demonstra:
 6. **Conecte** seu Pico em modo bootloader (segurando o botão BOOTSEL ao encaixar no USB).
 7. **Arraste** o `.uf2` para a unidade de disco que aparecerá (RPI-RP2).
 
-### Exemplo de CMakeLists.txt
-
-```cmake
-cmake_minimum_required(VERSION 3.13)
-include(pico_sdk_import.cmake)
-
-project(melodia_ws2812 C CXX ASM)
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_CXX_STANDARD 17)
-
-pico_sdk_init()
-
-add_executable(melodia_ws2812
-    main.c
-    ws2812.pio
-)
-
-pico_generate_pio_header(melodia_ws2812 ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
-
-target_link_libraries(melodia_ws2812 pico_stdlib hardware_pio hardware_pwm)
-
-pico_enable_stdio_usb(melodia_ws2812 1)
-pico_enable_stdio_uart(melodia_ws2812 0)
-
-pico_add_extra_outputs(melodia_ws2812)
-```
-
 ---
 
 ## Arquitetura do Código
