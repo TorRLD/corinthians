@@ -70,19 +70,19 @@ Este projeto em C/C++ para Raspberry Pi Pico (RP2040) demonstra:
 
 ## Arquitetura do Código
 
-### Estrutura de Pastas (Sugestão)
+### Estrutura de Pastas 
 
 ```
-pico_melodia_ws2812/
+corinthians/
 ├── CMakeLists.txt
-├── main.c
+├── corinthians.c
 ├── ws2812.pio
-└── build/      (gerado após cmake .. && make)
+└── build/      (gerado após cmake .. && make) ou botão compile no VSCode utilizando a extensão Pi Pico
 ```
 
 ### Descrição dos Principais Arquivos
 
-* **`main.c`** :
+* **`corinthians.c`** :
 * Contém toda a lógica para tocar a melodia (notas em formato `char *`), configurar o PWM, tratar cada “nota” ou “silêncio”.
 * Inicializa e lança `core1_entry()` para a atualização da matriz WS2812.
 * Mantém as imagens 5×5 definidas em array `padroes_imagens[6][5][5]`.
